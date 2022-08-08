@@ -23,13 +23,19 @@ Directory tree generated using [tree.nathanfriend.io](https://tree.nathanfriend.
 
 ## Getting Started
 
+To create a new app.
+
 ```shell
 npx create-react-app .
 ```
 
+To install the latest stable version.
+
 ```shell
 yarn add recoil
 ```
+
+Upgrade all the packages in your package.json to the latest version.
 
 ```shell
 yarn add --dev global npm-check-updates
@@ -37,10 +43,14 @@ npm-check-updates -u
 yarn add --dev yarn-upgrade-all
 ```
 
-```shell
-yarn build
-```
+Runs the app in the development mode.
 
 ```shell
 yarn start
+```
+
+Builds the app for production to the `build` folder.
+
+```shell
+yarn build
 ```
